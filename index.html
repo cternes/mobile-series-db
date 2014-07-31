@@ -1,0 +1,25 @@
+<!DOCTYPE html manifest="/offline.manifest">
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+        <link rel="stylesheet" type="text/css" href="css/style.css">  
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.17/angular.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body ng-controller="SeriesController">
+        <span ng-show="online">Online</span>
+        <span ng-hide="online">Offline</span>
+        <ul class="unstyled">
+            <li ng-repeat="series in seriesList| orderBy: 'title'">
+                <span>{{series.title}}</span>
+                <span>{{series.season}}</span>
+                <ul>
+                    <li ng-repeat="season in series.seasons| orderBy: 'season'"">
+                        <span>{{season.season}}</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>
