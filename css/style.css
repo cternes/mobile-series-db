@@ -1,0 +1,47 @@
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.centered {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.white-font {
+    color: #fff;
+}
+
+.green {
+    background-color: #92DA92;
+}
+
+.red {
+    background-color: #DAA692;
+}
+
+.list-item {
+    list-style:none;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    border: 1px solid #DDD;   
+}

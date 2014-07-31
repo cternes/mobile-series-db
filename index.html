@@ -8,17 +8,18 @@
         <script type="text/javascript" src="js/main.js"></script>
     </head>
     <body ng-controller="SeriesController">
-        <span ng-show="online">Online</span>
-        <span ng-hide="online">Offline</span>
-        <ul class="unstyled">
-            <li ng-repeat="series in seriesList| orderBy: 'title'">
-                <span>{{series.title}}</span>
-                <span>{{series.season}}</span>
+        <div class="centered white-font green" ng-show="online"><h4>Online</h4></div>
+        <div class="centered white-font red" ng-hide="online"><h4>Offline</h4></div>
+        <ul>
+            <li ng-repeat="series in seriesList| orderBy: 'title'" class="list-item">
+                <h3>{{series.title}} (Season {{series.seasons[0].season}})</h3>
+                <!--
                 <ul>
-                    <li ng-repeat="season in series.seasons| orderBy: 'season'"">
+                    <li ng-repeat="season in series.seasons| orderBy: 'season':true">
                         <span>{{season.season}}</span>
                     </li>
                 </ul>
+                -->
             </li>
         </ul>
     </body>
