@@ -39,10 +39,14 @@ app.controller('SeriesController', function($scope, $http) {
     //if we're online, fetch fresh data from server and store in browser storage
     if ($scope.online) {
         //we need to use jsonp, since normal $http does not allow cross origin requests
-        $http.jsonp('http://api.trakt.tv/user/library/shows/watched.json/' + apiKey + '/' + username + '?callback=JSON_CALLBACK') //callback=JSON_CALLBACK is for jsonp
+        $http.jsonp('http://api.trakt.tv/user/progress/watched.json/' + apiKey + '/' + username + '?callback=JSON_CALLBACK') //callback=JSON_CALLBACK is for jsonp
                 .success(function(data) {
                     $scope.seriesList = data;
-                    localStorage.setItem("seriesJson", angular.toJson(data));
+                    angular.forEach($scope.seriesList, function(value, key) {
+                       parseSeries(value);
+                    });
+            
+                    localStorage.setItem("seriesJson", angular.toJson($scope.seriesList));
                 })
                 .error(function(data, status) {
                     console.log('Could not fetch data from server ('+status+'). Have you set your api key in /js/config/config.js?');
@@ -51,5 +55,17 @@ app.controller('SeriesController', function($scope, $http) {
     //if we're offline, fetch data from browser storage
     else {
         $scope.seriesList = angular.fromJson(localStorage.getItem("seriesJson"));
+    }
+    
+    function parseSeries(series) {
+        //if fully watched, set style class
+        if(series.progress.percentage === 100) {
+            series.styleClass = 'light-red'
+        }
+        
+        //if has next episode, get season
+        if(series.next_episode !== false) {
+            series.nextSeason = series.next_episode.season;
+        }
     }
 });

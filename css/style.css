@@ -39,6 +39,10 @@ h3 {
     background-color: #DAA692;
 }
 
+.light-red {
+    background-color: #FFD8D8;
+}
+
 .list-item {
     list-style:none;
     padding: 10px 15px;
