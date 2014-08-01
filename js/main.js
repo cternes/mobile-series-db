@@ -37,8 +37,7 @@ app.controller('SeriesController', function($scope, $http) {
     });
     
     //if we're online, fetch fresh data from server and store in browser storage
-    //$scope.online
-    if (false) {
+    if ($scope.online) {
         //we need to use jsonp, since normal $http does not allow cross origin requests
         $http.jsonp('http://api.trakt.tv/user/library/shows/watched.json/' + apiKey + '/' + username + '?callback=JSON_CALLBACK') //callback=JSON_CALLBACK is for jsonp
                 .success(function(data) {
