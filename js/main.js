@@ -1,5 +1,5 @@
 //load config file first, then bootstrap angular afterwards
-$.get('js/config/config.json', function (data) {
+$.getJSON('js/config/config.json', function (data) {
     apiKey = data.apiKey;
     username = data.username;
     
