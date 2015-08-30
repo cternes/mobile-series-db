@@ -1,0 +1,228 @@
+{
+	"aired": 39,
+	"completed": 26,
+	"last_watched_at": "2014-11-26T20:33:46.000Z",
+	"seasons": [{
+		"number": 1,
+		"aired": 13,
+		"completed": 13,
+		"episodes": [{
+			"number": 1,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		},
+		{
+			"number": 2,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		},
+		{
+			"number": 3,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		},
+		{
+			"number": 4,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		},
+		{
+			"number": 5,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		},
+		{
+			"number": 6,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		},
+		{
+			"number": 7,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		},
+		{
+			"number": 8,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		},
+		{
+			"number": 9,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		},
+		{
+			"number": 10,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		},
+		{
+			"number": 11,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		},
+		{
+			"number": 12,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		},
+		{
+			"number": 13,
+			"completed": true,
+			"last_watched_at": "2014-09-28T17:55:45.000Z"
+		}]
+	},
+	{
+		"number": 2,
+		"aired": 13,
+		"completed": 13,
+		"episodes": [{
+			"number": 1,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		},
+		{
+			"number": 2,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		},
+		{
+			"number": 3,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		},
+		{
+			"number": 4,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		},
+		{
+			"number": 5,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		},
+		{
+			"number": 6,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		},
+		{
+			"number": 7,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		},
+		{
+			"number": 8,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		},
+		{
+			"number": 9,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		},
+		{
+			"number": 10,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		},
+		{
+			"number": 11,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		},
+		{
+			"number": 12,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		},
+		{
+			"number": 13,
+			"completed": true,
+			"last_watched_at": "2014-11-26T20:33:46.000Z"
+		}]
+	},
+	{
+		"number": 3,
+		"aired": 13,
+		"completed": 0,
+		"episodes": [{
+			"number": 1,
+			"completed": false,
+			"last_watched_at": null
+		},
+		{
+			"number": 2,
+			"completed": false,
+			"last_watched_at": null
+		},
+		{
+			"number": 3,
+			"completed": false,
+			"last_watched_at": null
+		},
+		{
+			"number": 4,
+			"completed": false,
+			"last_watched_at": null
+		},
+		{
+			"number": 5,
+			"completed": false,
+			"last_watched_at": null
+		},
+		{
+			"number": 6,
+			"completed": false,
+			"last_watched_at": null
+		},
+		{
+			"number": 7,
+			"completed": false,
+			"last_watched_at": null
+		},
+		{
+			"number": 8,
+			"completed": false,
+			"last_watched_at": null
+		},
+		{
+			"number": 9,
+			"completed": false,
+			"last_watched_at": null
+		},
+		{
+			"number": 10,
+			"completed": false,
+			"last_watched_at": null
+		},
+		{
+			"number": 11,
+			"completed": false,
+			"last_watched_at": null
+		},
+		{
+			"number": 12,
+			"completed": false,
+			"last_watched_at": null
+		},
+		{
+			"number": 13,
+			"completed": false,
+			"last_watched_at": null
+		}]
+	}],
+	"hidden_seasons": [],
+	"next_episode": {
+		"season": 3,
+		"number": 1,
+		"title": "Mother's Day",
+		"ids": {
+			"trakt": 1455465,
+			"tvdb": 5043420,
+			"imdb": "tt3713502",
+			"tmdb": null,
+			"tvrage": 1065740202
+		}
+	}
+}
