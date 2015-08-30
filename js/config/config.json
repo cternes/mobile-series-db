@@ -1,5 +1,6 @@
 {
   "apiVersion": "2",
   "apiKey": "yourApiKey",
+  "clientSecret": "yourClientSecret",
   "username": "yourUsername"
 }
