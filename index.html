@@ -16,6 +16,7 @@
     <body ng-controller="SeriesController">
         <div class="centered white-font green" ng-show="online"><h4>Online</h4></div>
         <div class="centered white-font red" ng-hide="online"><h4>Offline</h4></div>
+		<a href="{{authorizationUrl}}" ng-show="{{!hasApiToken}}">Login</a>
         <ul>
             <li ng-repeat="series in seriesList| orderBy: 'show.title'" class="list-item {{series.styleClass}}">
                 <h3 ng-show="series.nextSeason">{{series.show.title}} (Season {{series.nextSeason}})</h3>
