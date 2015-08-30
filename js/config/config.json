@@ -1,4 +1,5 @@
 {
+  "apiVersion": "2",
   "apiKey": "yourApiKey",
   "username": "yourUsername"
 }
